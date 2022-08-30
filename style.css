@@ -9,6 +9,16 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 55%, rgba(0,212,255,1) 100%);
 }
 
+.container {
+    display: flex;
+    height: 400px;
+    width: 700px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+}
+
 .form-container {
     display: flex;
     background-color: #fff;
@@ -17,7 +27,7 @@ body {
     width: 500px;
     justify-content: center;
     align-items: center;
-    margin: 300px auto;
+    margin: auto;
     padding: 20px;
 }
 
@@ -46,6 +56,15 @@ body {
 
 #random-btn:hover {
     background-color: rgb(109, 10, 201);
+}
+
+.linkedin {
+    width: 50px;
+}
+
+.name {
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 550px){
