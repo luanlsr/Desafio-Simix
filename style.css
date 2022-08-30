@@ -62,6 +62,15 @@ body {
     width: 50px;
 }
 
+.site {
+    width: 50px;
+    filter: contrast(0);
+}
+
+.site:hover {
+    content: 'portifólio';
+}
+
 .name {
     color: #fff;
     margin-bottom: 10px;
