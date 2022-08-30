@@ -58,13 +58,14 @@ body {
     background-color: rgb(109, 10, 201);
 }
 
-.linkedin {
-    width: 50px;
+.container a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
 }
 
-.site {
-    width: 50px;
-    filter: contrast(0);
+.container a:hover {
+    color: aqua;
 }
 
 .site:hover {
